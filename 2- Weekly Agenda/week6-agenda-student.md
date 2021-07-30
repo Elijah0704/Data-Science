@@ -82,11 +82,13 @@ The main and only aim of this part is to develop your skills that you need durin
 
 **2. What is an <a>SQL View?</a>**
 
-**3. Could you make a comparison of <a>SQL ~ NoSQL?</a>**
+**3. <del>Could you make a comparison of <a>SQL ~ NoSQL?</a>**
 
-**4. What is a <a>primary key</a> and a <a>foreign key</a>?**
+**4. <del>What is a <a>primary key</a> and a <a>foreign key</a>?**
 
 **5. What is the difference/s between  <a>UNION</a> and  <a>UNION ALL</a>?**
+
+**<i>Note:3rd and 4th questions are optional**
 
 
 
