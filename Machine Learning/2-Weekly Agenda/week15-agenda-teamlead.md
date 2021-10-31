@@ -69,52 +69,12 @@ The main and only aim of this part is to develop your skills that you need durin
 
 **1. Why do we need Dimensionality Reduction?**
 
-**Answer:**
-We use size reduction techniques mainly for two reasons: Visualization: Our brain is most accustomed to thinking in three-dimensional space and has trouble imagining higher order dimensions. We can easily understand the orientation of objects and the relationships between objects in one, two, and three dimensions, but as dimensionality increases, we may not be able to do so easily. Since visualization is an important aspect of heuristic data analysis, we need to reduce its size in our high-dimensional data; at the same time, we must protect relationships and information as much as possible. For this reason, size reduction techniques are used extensively for visualization purposes. The dimensionality curse: In machine learning, we estimate the parameters of our models with the available data we have. If we add many properties to our models, their statistical power may decrease. In other words, the parameters of the model increase exponentially with the number of dimensions (properties) of the data. That's why we resort to size reduction techniques to limit the size in the data. On the other hand, some machine learning algorithms are affected by the multidimensionality curse like regression models.
-
 **2. What is PCA in shortly and tell us about the advantages and disadvantages of the PCA?**
 
-**Answer:**
-PCA is a complexity reduction technique that tries to reduce it to a smaller set of components representing most of the information in variables. When we look at the advantages of PCA, we can say that we got rid of the multidimensionality curse and its negative results. This will give us the advantage of running our algorithm faster and reducing the possibility of overfitting. In addition, the fact that the components formed with PCA do not correlate with each other. This is a great advantage in regression problems. One of the important advantages of size reduction techniques such as PCA is visualization. We know that that human perception gets better with visualization. Advantages of the PCA in shortly:
-
-Significant reduction from the multidimensional curse
-Eradication of correlated features
-Improvement of algorithm performance
-Reduction of overfitting possibility
-Improvements on visualization
-Disadvantages:
-
-First of all principal components (PC) are not as readable and interpretable as original features. Also we have to standardize the data before implementing PCA; otherwise PCA will not be able to find the optimal principal components. In addition, after the PCA we may miss some information as compared to the original list of features.
-
-Disadvantages of the PCA in shortly:
-
-Less interpretable
-Loss information
-Data standardization is necessary
-
 **3. What are the linkage methods used in hierarchical clustering?**
-
-**Answer:**
-Hierarchical clustering is a general family of clustering algorithms that build nested clusters by merging or splitting them successively. This hierarchy of clusters is represented as a tree (or dendrogram).
-
-The Agglomerative Clustering which is widely used of hierarchical clustering, performs a hierarchical clustering using a bottom up approach: each observation starts in its own cluster, and clusters are successively merged together.
-
-The linkage criteria determines the metric used for the merge strategy:
-
-Ward minimizes the sum of squared differences within all clusters. It is a variance-minimizing approach and in this sense is similar to the k-means objective function but tackled with an agglomerative hierarchical approach.
-Maximum or complete linkage uses the maximum distances between all observations of the two sets.
-Average linkage uses the average of the distances of each observation of the two sets.
-Single linkage uses the minimum of the distances between all observations of the two sets.
-                  
-                  
+      
 **4. What are Recommender Systems? Which recommender system models are mostly used? Briefly explain.**
 
-**Answer:**
-Recommendation systems are models created based on users' previous preferences or similar users' preferences. They are widely and successfully used by firms like Netflix, Google, Amazon, YouTube etc. Widely used Recommender System models are Content Based Recommendations and Collaborative Based Recommendations.
-
-In Content Based Recommendations the user will be recommended items similar to the ones the user preferred in the past. For example if you bought sports wear on internet, Content Based Recommendation systems will recommend you similar items of sport wears like running shoes etc.
-
-In Collaborative Based Recommendations the user will be recommended items that are preferred by other people with similar tastes and preferences. For example if you bought and read a scientific books, Collaborative Based Recommendation system search and find people who bought and read scientific books and recommend you the other scientific books that read or bought by similar users with you.
 
 <hr>
 
@@ -132,5 +92,6 @@ Please discuss the following subjects within the group.
 
 
 
-- [Assigment]()
+- ML Assignment
+- ML Project  
 
